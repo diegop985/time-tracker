@@ -108,6 +108,11 @@ body {
 .user-card p {
   margin-left: 25px;
   margin-top: 20px;
+  cursor: pointer;
+}
+
+.user-card p:hover {
+  color: white;
 }
 /* _______________________________ */
 
@@ -142,6 +147,11 @@ body {
   width: 220px;
   height: 200px;
   border-radius: 15px;
+  cursor: pointer;
+}
+
+.box-info:hover {
+  background-color: #34397b;
 }
 
 .box1 {
@@ -162,6 +172,11 @@ body {
   top: 0;
   padding-top: 33px;
 }
+
+.elipsis-icon:hover {
+  width: 33px;
+}
+
 .box1 h1 {
   color: white;
   font-weight: 300;
