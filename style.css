@@ -15,9 +15,162 @@
   --lime-green: hsl(145, 58%, 55%);
   --violet: hsl(264, 64%, 52%);
   --soft-orange: hsl(43, 84%, 65%);
-
+  --blue-elemao: hsl(246, 80%, 60%);
   --very-blue: hsl(226, 43%, 10%);
   --dark-blue: hsl(235, 46%, 20%);
   --desaturated-blue: hsl(235, 45%, 61%);
   --pale-blue: hsl(236, 100%, 87%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background: var(--very-blue);
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-card {
+  background-color: white;
+  height: 500px;
+  border-radius: 15px;
+  width: 250px;
+}
+
+.boxes-container {
+  height: 500px;
+  width: 700px;
+  border-radius: 15px;
+}
+
+/* No tocar lo que está arriba  */
+/* ___________________________ */
+
+/* upper box set */
+
+.upper-box {
+  border-radius: 15px;
+  background-color: var(--blue-elemao);
+  height: 350px;
+}
+
+.upper-box img {
+  margin: 35px 25px;
+  width: 80px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 100%;
+}
+
+.upper-box p {
+  font-weight: 300;
+  color: var(--pale-blue);
+  font-size: 14px;
+  margin: auto 25px;
+}
+
+.upper-box h1 {
+  font-weight: 300;
+  color: white;
+  margin: auto 25px;
+  padding-top: 5px;
+}
+
+/* ____________________ */
+
+/* Days info */
+
+.user-card {
+  background-color: var(--dark-blue);
+}
+
+.pickme {
+  color: white;
+}
+
+.user-card {
+  color: var(--desaturated-blue);
+}
+
+.user-card p {
+  margin-left: 25px;
+  margin-top: 20px;
+}
+/* _______________________________ */
+
+/* box container */
+.boxes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.box {
+  background-color: white;
+  width: 220px;
+  height: 240px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.box img {
+  position: absolute;
+  right: 0%;
+  width: 60px;
+  padding-right: 5px;
+}
+
+.box-info {
+  background-color: var(--dark-blue);
+  position: absolute;
+  top: 40px;
+  width: 220px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.box1 {
+  background-color: var(--light-red);
+}
+
+.box1 h1,
+h3,
+p {
+  color: white;
+  font-weight: 300;
+}
+
+.box2 {
+  background-color: var(--soft-blue);
+}
+
+.box3 {
+  background-color: var(--light-red-study);
+}
+
+.box4 {
+  background-color: var(--lime-green);
+}
+
+.box5 {
+  background-color: var(--violet);
+}
+
+.box6 {
+  background-color: var(--soft-orange);
 }
