@@ -128,7 +128,7 @@ body {
   position: relative;
 }
 
-.box img {
+.svg-box {
   position: absolute;
   right: 0%;
   width: 60px;
@@ -148,13 +148,35 @@ body {
   background-color: var(--light-red);
 }
 
-.box1 h1,
-h3,
-p {
+.box1 h3 {
+  color: white;
+  font-weight: 400;
+  margin: auto 25px;
+  padding-top: 25px;
+}
+.elipsis-icon {
+  position: absolute;
+  right: 0%;
+  width: 28px;
+  padding-right: 15px;
+  top: 0;
+  padding-top: 33px;
+}
+.box1 h1 {
   color: white;
   font-weight: 300;
+  font-size: 55px;
+  margin: auto 25px;
+  padding-top: 25px;
 }
 
+.box1 p {
+  color: var(--pale-blue);
+  font-size: 14px;
+  font-weight: 300;
+  margin: auto 25px;
+  padding-top: 15px;
+}
 .box2 {
   background-color: var(--soft-blue);
 }
