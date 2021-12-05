@@ -1,7 +1,7 @@
-/* <-------------- json data manipulation --------------> */
+// <-------------- json data manipulation --------------> 
 
-/* <--------------     WORK DATA      --------------> */
-/* <-------------- START DAY DATA FECTH --------------> */
+// <--------------     WORK DATA      --------------> 
+// <-------------- START DAY DATA FECTH --------------> 
 
 document.getElementById("dayOnClick").onclick= function () {
     async function obtenerDatos () {
@@ -14,10 +14,10 @@ document.getElementById("dayOnClick").onclick= function () {
         }            
     obtenerDatos();
 }
- /* <-------------- END DAY DATA FECTH --------------> */
+ // <-------------- END DAY DATA FECTH --------------> 
 
 
-/* <-------------- START WEEK DATA FECTH --------------> */
+// <-------------- START WEEK DATA FECTH --------------> 
 
 document.getElementById("weekOnClick").onclick= function () {
     async function obtenerDatos () {
@@ -30,9 +30,9 @@ document.getElementById("weekOnClick").onclick= function () {
         }            
     obtenerDatos();
 }
- /* <-------------- END WEEK DATA FECTH --------------> */
+ // <-------------- END WEEK DATA FECTH --------------> 
 
- /* <-------------- START MONTH DATA FECTH --------------> */
+ // <-------------- START MONTH DATA FECTH --------------> 
 
 document.getElementById("monthOnClick").onclick= function () {
     async function obtenerDatos () {
@@ -45,12 +45,12 @@ document.getElementById("monthOnClick").onclick= function () {
         }            
     obtenerDatos();
 }
- /* <-------------- END MONTH DATA FECTH --------------> */
+ // <-------------- END MONTH DATA FECTH --------------> 
 
+/* 
+// <--------------     PLAY DATA      --------------> 
 
-/* <--------------     PLAY DATA      --------------> */
-
- /* <-------------- START DAY DATA FECTH --------------> */
+// <-------------- START DAY DATA FECTH --------------> 
 
  document.getElementById("dayOnClick").onclick= function () {
     async function obtenerDatos () {
@@ -63,10 +63,10 @@ document.getElementById("monthOnClick").onclick= function () {
         }            
     obtenerDatos();
 }
- /* <-------------- END DAY DATA FECTH --------------> */
+ // <-------------- END DAY DATA FECTH --------------> 
 
 
-/* <-------------- START WEEK DATA FECTH --------------> */
+// <-------------- START WEEK DATA FECTH --------------> 
 
 document.getElementById("weekOnClick").onclick= function () {
     async function obtenerDatos () {
@@ -79,9 +79,9 @@ document.getElementById("weekOnClick").onclick= function () {
         }            
     obtenerDatos();
 }
- /* <-------------- END WEEK DATA FECTH --------------> */
+ //<-------------- END WEEK DATA FECTH --------------> 
 
- /* <-------------- START MONTH DATA FECTH --------------> */
+//<-------------- START MONTH DATA FECTH --------------> 
 
 document.getElementById("monthOnClick").onclick= function () {
     async function obtenerDatos () {
@@ -94,12 +94,12 @@ document.getElementById("monthOnClick").onclick= function () {
         }            
     obtenerDatos();
 }
- /* <-------------- END MONTH DATA FECTH --------------> */
+//<-------------- END MONTH DATA FECTH --------------> 
 
 
- /* <--------------     STUDY DATA      --------------> */
+ //<--------------     STUDY DATA      --------------> 
 
- /* <-------------- START DAY DATA FECTH --------------> */
+ //<-------------- START DAY DATA FECTH --------------> 
 
 document.getElementById("dayOnClick").onclick= function () {
     async function obtenerDatos () {
@@ -112,10 +112,10 @@ document.getElementById("dayOnClick").onclick= function () {
         }            
     obtenerDatos();
 }
- /* <-------------- END DAY DATA FECTH --------------> */
+//<-------------- END DAY DATA FECTH --------------> 
 
 
-/* <-------------- START WEEK DATA FECTH --------------> */
+//<-------------- START WEEK DATA FECTH --------------> 
 
 document.getElementById("weekOnClick").onclick= function () {
     async function obtenerDatos () {
@@ -128,9 +128,9 @@ document.getElementById("weekOnClick").onclick= function () {
         }            
     obtenerDatos();
 }
- /* <-------------- END WEEK DATA FECTH --------------> */
+// <-------------- END WEEK DATA FECTH --------------> 
 
- /* <-------------- START MONTH DATA FECTH --------------> */
+//<-------------- START MONTH DATA FECTH --------------> 
 
 document.getElementById("monthOnClick").onclick= function () {
     async function obtenerDatos () {
@@ -143,9 +143,6 @@ document.getElementById("monthOnClick").onclick= function () {
         }            
     obtenerDatos();
 }
- /* <-------------- END MONTH DATA FECTH --------------> */
+//<-------------- END MONTH DATA FECTH --------------> 
 
-
-
-
-
+ */
