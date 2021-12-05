@@ -164,6 +164,37 @@ body {
   margin: auto 25px;
   padding-top: 25px;
 }
+
+.box2 h3 {
+  color: white;
+  font-weight: 400;
+  margin: auto 25px;
+  padding-top: 25px;
+}
+.box3 h3 {
+  color: white;
+  font-weight: 400;
+  margin: auto 25px;
+  padding-top: 25px;
+}
+.box4 h3 {
+  color: white;
+  font-weight: 400;
+  margin: auto 25px;
+  padding-top: 25px;
+}
+.box5 h3 {
+  color: white;
+  font-weight: 400;
+  margin: auto 25px;
+  padding-top: 25px;
+}
+.box6 h3 {
+  color: white;
+  font-weight: 400;
+  margin: auto 25px;
+  padding-top: 25px;
+}
 .elipsis-icon {
   position: absolute;
   right: 0%;
@@ -180,12 +211,81 @@ body {
 .box1 h1 {
   color: white;
   font-weight: 300;
-  font-size: 55px;
+  font-size: 50px;
   margin: auto 25px;
   padding-top: 25px;
 }
-
+.box2 h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 50px;
+  margin: auto 25px;
+  padding-top: 25px;
+}
+.box3 h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 50px;
+  margin: auto 25px;
+  padding-top: 25px;
+}
+.box4 h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 50px;
+  margin: auto 25px;
+  padding-top: 25px;
+}
+.box5 h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 50px;
+  margin: auto 25px;
+  padding-top: 25px;
+}
+.box6 h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 50px;
+  margin: auto 25px;
+  padding-top: 25px;
+}
 .box1 p {
+  color: var(--pale-blue);
+  font-size: 14px;
+  font-weight: 300;
+  margin: auto 25px;
+  padding-top: 15px;
+}
+.box2 p {
+  color: var(--pale-blue);
+  font-size: 14px;
+  font-weight: 300;
+  margin: auto 25px;
+  padding-top: 15px;
+}
+.box3 p {
+  color: var(--pale-blue);
+  font-size: 14px;
+  font-weight: 300;
+  margin: auto 25px;
+  padding-top: 15px;
+}
+.box4 p {
+  color: var(--pale-blue);
+  font-size: 14px;
+  font-weight: 300;
+  margin: auto 25px;
+  padding-top: 15px;
+}
+.box5 p {
+  color: var(--pale-blue);
+  font-size: 14px;
+  font-weight: 300;
+  margin: auto 25px;
+  padding-top: 15px;
+}
+.box6 p {
   color: var(--pale-blue);
   font-size: 14px;
   font-weight: 300;

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./style.css">
   <title>Frontend Mentor | Time tracking dashboard</title>
@@ -11,7 +11,7 @@
 
 </head>
 <body>
-
+ 
 
   <div class="container">
     <div class="user-card">
@@ -23,6 +23,9 @@
       <p>Daily</p>
       <p class="pickme">Weekly</p>
       <p>Monthly</p>
+      <button id="dayOnClick">day</button>
+      <button id="weekOnClick">week</button>
+      <button id="monthOnClick">year</button>
     </div>
     <div class="boxes-container">
       <div class="box box1">
@@ -30,29 +33,54 @@
         <div class="box-info">
           <h3>Work</h3>
           <img src="./images/icon-ellipsis.svg" alt="" class="elipsis-icon">
-          <h1>32Hrs</h1>
-          <p>Last Week - 36 hours</p>
+          <h1 id="WorkShow1" >-</h1>
+          <p id="WorkShow2">-</p>
         </div>
       </div>
       <div class="box box2">
         <img src="./images/icon-play.svg" alt="">
-        <div class="box-info"></div>
+        <div class="box-info">
+          <h3>Play</h3>
+          <img src="./images/icon-ellipsis.svg" alt="" class="elipsis-icon">
+          <h1 id="playShow1" >-</h1>
+          <p id="playShow2">-</p>
+        </div>
       </div>
       <div class="box box3">
         <img src="./images/icon-study.svg" alt="">
-        <div class="box-info"></div>
+        <div class="box-info">
+          <h3>Study</h3>
+          <img src="./images/icon-ellipsis.svg" alt="" class="elipsis-icon">
+          <h1 id="studyShow1" >-</h1>
+          <p id="studyShow2">-</p>
+        </div>
       </div>
       <div class="box box4">
         <img src="./images/icon-exercise.svg" alt="">
-        <div class="box-info"></div>
+        <div class="box-info">
+          <h3>Exercise</h3>
+          <img src="./images/icon-ellipsis.svg" alt="" class="elipsis-icon">
+          <h1 id="studyShow1" >-</h1>
+          <p id="studyShow2">-</p>
+        </div>
       </div>
       <div class="box box5">
         <img src="./images/icon-social.svg" alt="">
-        <div class="box-info"></div>
+        <div class="box-info">
+          <h3>Social</h3>
+          <img src="./images/icon-ellipsis.svg" alt="" class="elipsis-icon">
+          <h1 id="studyShow1" >-</h1>
+          <p id="studyShow2">-</p>
+        </div>
       </div>
       <div class="box box6">
         <img src="./images/icon-self-care.svg" alt="">
-        <div class="box-info"></div>
+        <div class="box-info">
+          <h3>Self Care</h3>
+          <img src="./images/icon-ellipsis.svg" alt="" class="elipsis-icon">
+          <h1 id="Show1" >-</h1>
+          <p id="Show2">-</p>
+        </div>
       </div>
     </div>
     
@@ -62,6 +90,8 @@
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
+  
+    <script src="./index.js"></script>
   </div>
 </body>
 </html>
