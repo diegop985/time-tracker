@@ -97,23 +97,27 @@ body {
   background-color: var(--dark-blue);
 }
 
-.pickme {
-  color: white;
-}
-
-.user-card {
-  color: var(--desaturated-blue);
-}
-
-.user-card p {
+.user-card button {
   margin-left: 25px;
-  margin-top: 20px;
+  color: var(--desaturated-blue);
+  margin: 25px 25px;
   cursor: pointer;
+  border: none;
+  background-color: transparent;
+  display: block;
+}
+.textOnButton {
+  font-size: 16px;
+  font-weight: 500;
 }
 
-.user-card p:hover {
+.textOnButton:hover {
   color: white;
 }
+.textOnButton:focus {
+  color: white;
+}
+
 /* _______________________________ */
 
 /* box container */
