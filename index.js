@@ -5,7 +5,7 @@
 
 document.getElementById("dayOnClick").onclick= function () {
     async function obtenerDatos () {
-        const RESPONSE = await fetch ("http://127.0.0.1:5500/data.json")
+        const RESPONSE = await fetch ("./data.json")
                 const json = await RESPONSE.json()
                 let show1= json[0].timeframes.daily.current
                 let show2= json[0].timeframes.daily.previous
